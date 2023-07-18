@@ -539,8 +539,28 @@ footer{
     .cooo{
         text-align: center;
     }
-    
 }
+ .ss1{
+    height: 256px;
+ }
+ .ss3{
+    height: 256px;
+ }
+ .ss5{
+    height: 256px;
+ }
+
+ @media(min-width:991px){
+  .ss2{
+    height: 256px
+  }
+  .ss4{
+    height: 256px
+  }
+  .ss6{
+    height: 256px
+  }
+ }
 .copy{
     text-align: center;
 }
