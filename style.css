@@ -557,7 +557,26 @@ footer{
  .ss5{
     height: 256px;
  }
-
+@media(max-width:991px){
+    .ss1{
+        height: auto;
+      }
+      .ss2{
+        height: auto;
+      }
+      .ss3{
+        height: auto;
+      }
+      .ss4{
+        height: auto;
+      }
+      .ss5{
+        height:auto;
+      }
+      .ss6{
+        height:auto;
+      }
+}
  @media(min-width:991px){
   .ss2{
     height: 256px
