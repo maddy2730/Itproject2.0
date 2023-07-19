@@ -2,13 +2,20 @@ body{
     font-family: Poppins,sans-serif;
 }
 .a h1{
-    font-size: 70px;
+    font-size: 59px;
     line-height: 68px;
     font-weight: 800;
     color: #161616;
     letter-spacing: -.3px;
 }
-
+@media(max-width:461px){
+    .a h1{
+        font-size:45px;
+    }
+    .a{
+        top: 2rem !important;
+    }
+}
 .mgg2 img:hover{transform:scale(1.1);
     transition:all 0.7s ease-in-out;
 }
@@ -23,7 +30,8 @@ body{
 }
 .ctnn{
     height:100%;
-    z-index:-998;
+    z-index:-1;
+    justify-content: center;
 }
 
 .a{
@@ -650,12 +658,17 @@ ul li  {
             z-index: 0;
             height: 400px;
      } 
+     .f input {
+        outline: none;
+        border: none;
+    }
      .aoo{
         border: none;
         border-right: 1px solid gray;
      }
     .ctc{
-   
+   display: flex;
+   justify-content: center;
         top:9rem;
     }
 
@@ -664,6 +677,10 @@ ul li  {
     }
     .box0{
         margin-top: 40px;
+        z-index: -1;
+    }
+    .ccms{
+        z-index: -1;
     }
     .abt{
         display: flex;
@@ -842,6 +859,8 @@ margin-top: 100px;
 }
 .c8{
     padding: 20px;
+    z-index: -1;
+
 }
 .c8 .p1{
  padding-bottom: 45px;   
@@ -957,4 +976,62 @@ margin-top: 100px;
             padding: 0;
             margin: 0;
         }
+
+/* form  ....................................................................................................................................*/
+        .input1{
+            display: block;
+            margin-bottom: 25px;
+            padding: 10px;
+            border: none;
+            border-bottom: 1px solid black;
+            padding-left: 0%;
+            outline: none;
+         }
+        .textarea1{
+            display: block;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid black;
+            outline: none;
+            resize: none;
+            height: 100%;
+            padding-left: 0%;
+         }
+          .button12{
+            display: block; text-align: center;
+            margin-left: 61px;
+            padding: 7px;
+            width: 76px;
+            margin-top: 22px;
+            border: 1px solid black;
+            text-decoration: none;
+            background-color:black;
+            color: white;
+         }
+         .cm{
+            display:none;
+            justify-content: center;
+            z-index: 3;
+            position: absolute;
+            left: 50%;
+            right: 50%;
+         }
+          .frm{
+             padding: 50px; background-color:white;
+             box-shadow: 7px 7px 17px gray;
         
+          }
+          @media(max-width:329px){
+            .frm{
+              padding:50px 30px 50px 30px;
+            };
+          }
+          .frm h3{
+           text-align: center;
+          }
+.ramm{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow:hidden;
+}

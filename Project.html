@@ -74,13 +74,29 @@
             <a class="nav-link" href="Service.html">service</a>
           </li>
         </ul>
-        <button class="btn" type="button"
-          style="background:linear-gradient(to right,#03c4c4 0,#049c9c 50%,#049c9c 100%);">CONTACT</button>
+        <button class="btn" type="button" id="button1"
+          style="color: white; background:linear-gradient(to right,#03c4c4 0,#049c9c 50%,#049c9c 100%);">CONTACT</button>
       </div>
     </div>
   </nav>
   <div class=" fluid-container fsst fsst2">
     <div class="container ctc">
+      <div class="cm">
+        <div class="row rm">
+            <div class="col">
+              <i class="fa fa-times-circle" aria-hidden="true" id="close"></i>
+                <form class="frm"  >
+                    <h3>CONTACT US</h3>
+                    <input id="name" class="input1" type="text" placeholder="enter your name">
+                    <input id="phonenumber" class="input1" type="text" placeholder=" enter your phone number">
+                    <input id="address" class="input1" type=" text" placeholder=" enter your Address">
+                    <input id="email" class="input1" type="email" placeholder="enter your email">
+                    <textarea id="area" class="textarea1" rows="" cols="22" placeholder="how can we help you"></textarea>
+                    <a href="#" class="button12" type="submit" onclick="farr()">send</a>
+                </form>
+            </div>
+        </div>
+    </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 a00">
           <h3>Projects</h3>
@@ -89,7 +105,6 @@
       </div>
     </div>
   </div>
- 
   <div  class="container">
     <div class="rgt">
       <h1>Take a Dive into Our all<span> Portfolio</span></h1>
@@ -261,5 +276,19 @@
     </div>
     </footer>
 </body>
-
+<script>
+  document.getElementById("button1").addEventListener("click", function () {
+      document.querySelector(".cm").style.display = "flex";
+  })
+  document.getElementById("close").addEventListener("click", function () {
+      document.querySelector(".cm").style.display = "none";
+  })
+  function farr(){
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("phonenumber").value = "";
+    document.getElementById("address").value = "";
+    document.getElementById("area").value = "";
+  }
+  </script>
 </html>
