@@ -922,7 +922,7 @@ margin-top: 100px;
             font-weight: 200;
             color: #161616;
             margin: 0;
-            padding: 0 0 20px 30px;
+            padding: 0 0 20px 0px;
         }
         .title p {
             font-size: 17px;
@@ -995,7 +995,9 @@ margin-top: 100px;
             padding: 0;
             margin: 0;
         }
-
+   li a {
+ text-decoration: none !important;
+   } 
 /* form  ....................................................................................................................................*/
         .input1{
             display: block;
