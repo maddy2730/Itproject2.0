@@ -92,8 +92,6 @@ ul li:hover{
     text-align: center;
     padding-bottom: 10px;
 }
-.icon1{
-}
 .txt h6{
     font-weight: 700;
 }
@@ -469,7 +467,7 @@ footer{
     padding-left: 0px;
 }
 .ull li{
-    padding-16: 16px;
+    padding: 16px;
 }
 .row3{
     display: block;
@@ -899,7 +897,6 @@ margin-top: 100px;
         display: flex;
         flex-wrap: wrap-reverse;
           }
-          @media()
          
          /* blog............................................/////////////////////// */
          .fsst3{
